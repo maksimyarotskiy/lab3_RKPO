@@ -1,4 +1,5 @@
 {
+  "homepage": "https://maksimyarotskiy.github.io/lab3_RKPO",
   "name": "todo-app",
   "private": true,
   "version": "0.0.0",
@@ -6,6 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
